@@ -17,7 +17,7 @@ class WordCounter {
    */
   constructor(filePath) {
     this.filePath = filePath;
-    this.wordsMap = new Map();
+    this.wordsMap = new Map();  // I have used ES6 Map here, as it has better performace as compared to Object when it comes to search a key and update values... 
     this.regExp = /[ \t\n\r]+/;
   }
 
